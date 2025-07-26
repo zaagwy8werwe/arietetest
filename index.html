@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Ariete Arredamenti • Cucine su misura Giarre (CT) Sicilia</title>
+  <meta name="description" content="Ariete Arredamenti a Giarre (Catania): progettazione e sopralluogo gratuiti per cucine, zona giorno, camerette, divani, materassi e complementi.">
+  <link rel="canonical" href="https://www.arietearredamenti.it/">
+  <meta name="keywords" content="arredamenti Giarre, cucine su misura Sicilia, progettazione gratuita, arredamento zona giorno notte">
+  <link rel="stylesheet" href="styles.min.css">
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"LocalBusiness",
+    "name":"Ariete Arredamenti",
+    "image":"https://www.arietearredamenti.it/images/logo.jpg",
+    "address":{"@type":"PostalAddress","streetAddress":"Via Finocchiaro Aprile 108","addressLocality":"Giarre","addressRegion":"CT","postalCode":"95014","addressCountry":"IT"},
+    "telephone":"+39‑0957792601",
+    "email":"info@arietearredamenti.it",
+    "description":"Arredamenti su misura: cucine, camere, divani, progettazione gratuita, montaggio incluso.",
+    "url":"https://www.arietearredamenti.it",
+    "openingHours":"Mo‑Sa 09:00‑13:00, 15:00‑19:00",
+    "geo":{"@type":"GeoCoordinates","latitude":37.683,"longitude":15.118}
+  }
+  </script>
+</head>
+<body>
+<header>
+  <nav id="main-nav">
+    <a href="/">Home</a><a href="#servizi">Servizi</a><a href="#catalogo">Catalogo</a><a href="#contatti">Contatti</a>
+  </nav>
+</header>
+
+<section id="hero">
+  <h1>Arrediamo i vostri sogni a Giarre (CT)</h1>
+  <p>Progettazione, consegna e montaggio gratuiti. Sopralluogo senza impegno.</p>
+  <a href="#contatti" class="btn-primary">Richiedi un sopralluogo gratuito</a>
+</section>
+
+<section id="servizi">
+  <h2>Servizi</h2>
+  <ul>
+    <li>Sopralluogo e progettazione gratuiti</li>
+    <li>Trasporto e montaggio senza costi</li>
+    <li>Pagamenti personalizzati</li>
+    <li>Garanzia decennale su cucine Scic e 15 anni su top Okite</li>
+    <li>Assistenza post‑vendita e cortesia</li>
+    <li>Apertura domenicale su appuntamento</li>
+  </ul>
+</section>
+
+<section id="catalogo">
+  <h2>Catalogo</h2>
+  <div class="grid">
+    <div><img src="cucine.jpg" alt="Cucine su misura"><h3>Cucine</h3></div>
+    <div><img src="zona-giorno.jpg" alt="Zona giorno / notte"><h3>Zona giorno/notte</h3></div>
+    <!-- ... altri -->
+  </div>
+</section>
+
+<section id="testimonial">
+  <h2>Cosa dicono di noi</h2>
+  <blockquote>“Mobili bellissimi… montaggio perfetto… ogni azienda dovrebbe lavorare come voi.” – Roberta</blockquote>
+  <blockquote>“La cucina dei miei sogni è diventata realtà.” – Sara</blockquote>
+</section>
+
+<section id="contatti">
+  <h2>Contatti</h2>
+  <div class="contact-info">
+    <p><strong>Indirizzo:</strong> Via Finocchiaro Aprile 108, Giarre (CT) 95014</p>
+    <p><strong>Telefono:</strong> 095 77 92 601</p>
+    <p><strong>Email:</strong> <a href="mailto:info@arietearredamenti.it">info@arietearredamenti.it</a></p>
+  </div>
+  <div id="map" style="height:300px;"></div>
+  <form id="contact-form">
+    <label>Nome*<input type="text" name="nome" required></label>
+    <label>Email*<input type="email" name="email" required></label>
+    <label>Messaggio*<textarea name="messaggio" required></textarea></label>
+    <button type="submit">Invia richiesta</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 Ariete Arredamenti — P.IVA 04361510870</p>
+</footer>
+
+<script src="scripts.min.js"></script>
+<script>
+  function initMap(){
+    var location = {lat:37.683, lng:15.118};
+    var map = new google.maps.Map(document.getElementById('map'),{center:location,zoom:15});
+    new google.maps.Marker({position:location, map:map});
+  }
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+</body>
+</html>
